@@ -4,6 +4,8 @@
 
 package ec.edu.espoch.sistemagestionproductos;
 
+import ec.edu.espoch.sistemagestionproductos.vista.Vista;
+
 /**
  *
  * @author User
@@ -11,6 +13,7 @@ package ec.edu.espoch.sistemagestionproductos;
 public class SistemaGestionProductos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Vista objVista = new Vista();
+        objVista.setVisible(true);
     }
 }
